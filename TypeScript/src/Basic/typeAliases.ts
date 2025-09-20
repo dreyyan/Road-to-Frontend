@@ -1,0 +1,14 @@
+type Point = [number, number];
+
+// FUNCTION: Calculates the distance of a point from the origin
+const distanceFromOrigin = (coordinates: Point): number => {
+    const ORIGIN = [0, 0];
+    const [x, y] = coordinates; // Destructure coordinate values
+
+    return Math.sqrt((x ** 2 + y ** 2)); // Calculate using Euclidean distance formula
+}
+
+let testCoordinates: Point = [4, 7];
+
+// Test function
+console.log(`${testCoordinates} is ${distanceFromOrigin(testCoordinates)} away from the origin.`)

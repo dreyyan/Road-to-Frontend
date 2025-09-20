@@ -1,0 +1,14 @@
+{
+  "name": "road-to-frontend-ts",
+  "version": "1.0.0",
+  "main": "dist/typingVariables.js",
+  "type": "commonjs",
+"scripts": {
+  "build": "tsc",
+  "run": "cmd /c cls && node"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.5.1"
+  }
+}
