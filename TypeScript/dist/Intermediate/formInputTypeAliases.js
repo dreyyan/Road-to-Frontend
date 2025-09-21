@@ -5,11 +5,12 @@ const createFormField = (name, value, required) => {
 };
 // FUNCTION: Create 'n' form fields
 const createFormFields = (n) => {
-    let formFields = [];
+    let formFields = []; // To store newly created form fields
     // Create pre-defined form values
     const names = ["input", "dropdown"];
     const values = [1, "A"];
     const required = [true, false];
+    // This loop creates up to 'n' form fields using the pre-defined form values
     for (let i = 0; i < n; ++i) {
         let randomIndex = Math.round(Math.random()); // Create random seed
         formFields.push(createFormField(names[randomIndex], values[randomIndex], required[randomIndex]));
