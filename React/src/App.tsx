@@ -43,8 +43,8 @@ const App = () => {
       <StatusMessage status="success"/> */}
 
       {/* Problem #7: Optional Props */}
-      <ProfileCard name="Juan" avatarUrl="juan-avatar.png"/>
-      <ProfileCard name="Chris"/>
+      {/* <ProfileCard name="Juan" avatarUrl="juan-avatar.png"/>
+      <ProfileCard name="Chris"/> */}
 
     </div>
   );
