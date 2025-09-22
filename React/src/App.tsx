@@ -8,6 +8,9 @@ import type { TodoProps } from "./problems/04-ToDoItemComponent";
 import List from "./problems/05-ListRenderer";
 import StatusMessage from "./problems/06-ConditionalRendering";
 import ProfileCard from "./problems/07-OptionalProps";
+import Checkbox from "./problems/08-EventHandlerTyping";
+import Card from "./problems/09-ChildrenProp";
+import Form from "./problems/10-SimpleForm";
 
 const App = () => {
   const [todo, setTodo] = useState<TodoProps>({
@@ -45,6 +48,15 @@ const App = () => {
       {/* Problem #7: Optional Props */}
       {/* <ProfileCard name="Juan" avatarUrl="juan-avatar.png"/>
       <ProfileCard name="Chris"/> */}
+
+      {/* Problem #8: Event Handler Typing */}
+      {/* <Checkbox/> */}
+
+      {/* Problem #9: Children Prop */}
+      {/* <Card node="e"/> */}
+
+      {/* Problem #10: Simple Form */}
+      <Form/>
 
     </div>
   );
