@@ -1,0 +1,13 @@
+"use strict";
+const displayItem = (item) => {
+    switch (typeof item) {
+        case "string":
+            return "Item: String";
+            break;
+        case "number":
+            return "Item: Number";
+            break;
+    }
+};
+console.log(displayItem(""));
+console.log(displayItem(0));
